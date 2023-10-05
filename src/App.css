@@ -5,11 +5,14 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+	margin: 0;
+	display: flex;
+	background-color: var(--bg);
+	color: var(--text);
+	min-width: 320px;
+	min-height: 100vh;
+	overflow-x: hidden;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
